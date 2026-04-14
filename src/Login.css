@@ -1,0 +1,93 @@
+/* FULL PAGE */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #dbeafe, #e6f0fa);
+  font-family: 'Segoe UI', Arial;
+}
+
+/* BOX */
+.login-box {
+  background: white;
+  padding: 40px 35px;
+  border-radius: 16px;
+  width: 320px;
+  text-align: center;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* LOGO */
+.logo-section {
+  margin-bottom: 6px;   /* tighter so logo + title feel connected */
+}
+
+
+.logo-section img {
+  width: 220px;   /* increased from 80px */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* TITLE */
+.title {
+  margin: 6px 0 28px 0;   /* reduced top margin (was 14px) */
+  font-size: 34px;
+  font-weight: 700;
+  color: #24345c;
+  letter-spacing: 3px;
+}
+
+
+/* INPUTS */
+.login-box input {
+  width: 100%;
+  padding: 11px;           /* slightly increased */
+  margin-bottom: 16px;     /* consistent vertical rhythm */
+
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+
+  font-size: 14px;
+}
+
+.login-box input:focus {
+  border-color: #24345c;
+}
+
+/* BUTTON */
+.login-box button {
+  width: 100%;
+  padding: 11px;
+  margin-top: 5px;         /* aligns nicely after inputs */
+
+  background: #24345c;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  transition: 0.2s;
+}
+
+
+.login-box button:hover {
+  background: #3a4d7a;
+}
+
+/* ERROR */
+.login-error {
+  margin-top: 12px;
+  color: red;
+  font-size: 13px;
+}
+

@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: Segoe UI, Arial, sans-serif;
+  background: #f4f6fb;
+}
+
+.main {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* LEFT ALIGN EVERYTHING */
+}
+
+.main.collapsed {
+  width: 100%;
+}
+
+/* IDENTITY CARD */
+.identity {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 20px; /* space between profile pic and text */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Remove extra left margin from the text block */
+.identity > div {
+  margin-left: 0; 
+}
+
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  border: 3px solid #24345c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-details h2, .profile-details p {
+  margin: 0;
+}
+
+/* SYSTEM DAY */
+.system-day {
+  margin-left: auto;
+  text-align: right;
+}
+
+.day-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.day-controls button {
+  padding: 5px 10px;
+  border: none;
+  background: #24345c;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* DASHBOARD GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-items: start; /* LEFT ALIGN */
+  width: 100%;
+}
+
+.panel {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.panel input {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.action-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #24345c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background: #3a4d7a;
+}
+
+/* STUDENT REPORT */
+.student-report h2 {
+  margin-bottom: 15px;
+}
+
+.profile-top {
+  display: flex;
+  align-items: flex-start; /* LEFT ALIGN */
+  width: 100%;
+}
+
+.student-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.student-info h3 {
+  margin: 0 0 5px 0;
+}
+
+.student-info p {
+  margin: 3px 0;
+}
