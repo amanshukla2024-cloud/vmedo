@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vmedo/static/css/main.e69bf464.css",
-    "main.js": "/vmedo/static/js/main.616f8be2.js",
+    "main.js": "/vmedo/static/js/main.b7f92c57.js",
     "index.html": "/vmedo/index.html",
     "main.e69bf464.css.map": "/vmedo/static/css/main.e69bf464.css.map",
-    "main.616f8be2.js.map": "/vmedo/static/js/main.616f8be2.js.map"
+    "main.b7f92c57.js.map": "/vmedo/static/js/main.b7f92c57.js.map"
   },
   "entrypoints": [
     "static/css/main.e69bf464.css",
-    "static/js/main.616f8be2.js"
+    "static/js/main.b7f92c57.js"
   ]
 }
